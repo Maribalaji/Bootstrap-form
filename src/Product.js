@@ -13,11 +13,16 @@ function Product(){
       <Card.Body>
         <Card.Title>Product Details</Card.Title>
         <Card.Text>
-         <p>{name}</p>
-         <p>{price}</p>
-         <p>{quantity}</p>
-         <p>{description}</p>
-
+        {name}
+         </Card.Text>
+         <Card.Text>
+         {price}
+         </Card.Text>
+         <Card.Text>
+         {quantity}
+         </Card.Text>
+         <Card.Text>
+         {description}
         </Card.Text>
         
       </Card.Body>
